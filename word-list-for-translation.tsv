@@ -1,9 +1,16 @@
 Original	Translation
+arrangement	配列方法
 case study	事例研究
+casting	鋳造
 data cleaning	データクリーニング
+dataset	データセット
 experimental design	実験計画
+filter	選別（する）
+format	形式
+header	見出し
 layout	レイアウト
 manipulation	操作
+melting	融解
 merge	統合
 messy	雑然
 messy data	雑然データ
@@ -14,11 +21,15 @@ real-world	実世界
 relational algebra	リレーショナル代数
 relational database	リレーショナルデータベース
 semantics	意味解釈
+storage	格納
+string splitting	文字列分割
 table	表
 tidy	整然
 tidy data	整然データ
 tidying	整然化
-type of observational unit	観測ユニットのタイプ
+type of observational unit	観測の構成単位の類型
 un-tidy	非整然
+unit	構成単位
+value	値
 variable	変数
 visualizetion	可視化
