@@ -48,78 +48,25 @@ hod2 <- subset(hod2, !is.na(hod))
 hod2 <- join(hod2, codes, by = "cod")
 ```
 
-|  hod| cod |  freq|
-|----:|:----|-----:|
-|    8| B16 |     4|
-|    8| E84 |     3|
-|    8| I21 |  2205|
-|    8| N18 |   315|
-|    9| B16 |     7|
-|    9| E84 |     1|
-|    9| I21 |  2209|
-|    9| N18 |   333|
-|   10| B16 |    10|
-|   10| E84 |     7|
-|   10| I21 |  2434|
-|   10| N18 |   343|
-|   11| B16 |     6|
-|   11| E84 |     3|
-|   11| I21 |  2128|
+|  hod| cod |  freq| disease                     |  prop|  freq\_all|  prop\_all|
+|----:|:----|-----:|:----------------------------|-----:|----------:|----------:|
+|    8| B16 |     4| Acute hepatitis B           |  0.04|      21915|       0.04|
+|    8| E84 |     3| Cystic fibrosis             |  0.03|      21915|       0.04|
+|    8| I21 |  2205| Acute myocardial infarction |  0.05|      21915|       0.04|
+|    8| N18 |   315| Chronic renal failure       |  0.04|      21915|       0.04|
+|    9| B16 |     7| Acute hepatitis B           |  0.07|      22401|       0.04|
+|    9| E84 |     1| Cystic fibrosis             |  0.01|      22401|       0.04|
+|    9| I21 |  2209| Acute myocardial infarction |  0.05|      22401|       0.04|
+|    9| N18 |   333| Chronic renal failure       |  0.04|      22401|       0.04|
+|   10| B16 |    10| Acute hepatitis B           |  0.10|      24321|       0.05|
+|   10| E84 |     7| Cystic fibrosis             |  0.07|      24321|       0.05|
+|   10| I21 |  2434| Acute myocardial infarction |  0.05|      24321|       0.05|
+|   10| N18 |   343| Chronic renal failure       |  0.04|      24321|       0.05|
+|   11| B16 |     6| Acute hepatitis B           |  0.06|      23843|       0.05|
+|   11| E84 |     3| Cystic fibrosis             |  0.03|      23843|       0.05|
+|   11| I21 |  2128| Acute myocardial infarction |  0.05|      23843|       0.05|
+|         (a)    |||         (b)                 |  (c) |          (d)         ||
 
-| disease                     |
-|:----------------------------|
-| Acute hepatitis B           |
-| Cystic fibrosis             |
-| Acute myocardial infarction |
-| Chronic renal failure       |
-| Acute hepatitis B           |
-| Cystic fibrosis             |
-| Acute myocardial infarction |
-| Chronic renal failure       |
-| Acute hepatitis B           |
-| Cystic fibrosis             |
-| Acute myocardial infarction |
-| Chronic renal failure       |
-| Acute hepatitis B           |
-| Cystic fibrosis             |
-| Acute myocardial infarction |
-
-|  prop|
-|-----:|
-|  0.04|
-|  0.03|
-|  0.05|
-|  0.04|
-|  0.07|
-|  0.01|
-|  0.05|
-|  0.04|
-|  0.10|
-|  0.07|
-|  0.05|
-|  0.04|
-|  0.06|
-|  0.03|
-|  0.05|
-
-
-|  freq\_all|  prop\_all|
-|----------:|----------:|
-|      21915|       0.04|
-|      21915|       0.04|
-|      21915|       0.04|
-|      21915|       0.04|
-|      22401|       0.04|
-|      22401|       0.04|
-|      22401|       0.04|
-|      22401|       0.04|
-|      24321|       0.05|
-|      24321|       0.05|
-|      24321|       0.05|
-|      24321|       0.05|
-|      23843|       0.05|
-|      23843|       0.05|
-|      23843|       0.05|
 
 表16：データフレームの`hod2`から取り出した4つの疾患と4つの時間についての標本。
 
